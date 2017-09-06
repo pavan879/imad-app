@@ -19,6 +19,122 @@
   First name:<br>
   <input type="text" name="firstname" value="Mickey">
   </form>
+  <canvas id="myCanvas" width="200" height="120"
+style="border:1px solid #000000;">
+</canvas>
+
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+
+ctx.fillStyle = "#FF7F50";
+ctx.fillRect(0,0,200,40);
+
+ctx.beginPath();
+ctx.arc(100,60,20,0,360);
+ctx.stroke();
+
+
+ctx.moveTo(80,60);
+ctx.lineTo(120,60);
+ctx.stroke();
+
+ctx.moveTo(100,40);
+ctx.lineTo(100,80);
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.cos(Math.PI/12))),(60-(20*Math.sin(Math.PI/12))));
+ctx.strokeStyle = '#483D8B';
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.cos(Math.PI/6))),(60-(20*Math.sin(Math.PI/6))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.cos(Math.PI/4))),(60-(20*Math.sin(Math.PI/4))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.cos(Math.PI/3))),(60-(20*Math.sin(Math.PI/3))));
+ctx.stroke();
+
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.cos((Math.PI*5)/12))),(60-(20*Math.sin((Math.PI*5)/12))));
+ctx.stroke();
+
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*7)/12))),(60-(20*Math.cos((Math.PI*7)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*8)/12))),(60-(20*Math.cos((Math.PI*8)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*9)/12))),(60-(20*Math.cos((Math.PI*9)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*10)/12))),(60-(20*Math.cos((Math.PI*10)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*11)/12))),(60-(20*Math.cos((Math.PI*11)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI)/12))),(60-(20*Math.cos((Math.PI)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*2)/12))),(60-(20*Math.cos((Math.PI*2)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*3)/12))),(60-(20*Math.cos((Math.PI*3)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*4)/12))),(60-(20*Math.cos((Math.PI*4)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100-(20*Math.sin((Math.PI*5)/12))),(60-(20*Math.cos((Math.PI*5)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.sin((Math.PI)/12))),(60+(20*Math.cos((Math.PI)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.sin((Math.PI*2)/12))),(60+(20*Math.cos((Math.PI*2)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.sin((Math.PI*3)/12))),(60+(20*Math.cos((Math.PI*3)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.sin((Math.PI*4)/12))),(60+(20*Math.cos((Math.PI*4)/12))));
+ctx.stroke();
+
+ctx.moveTo(100,60);
+ctx.lineTo((100+(20*Math.sin((Math.PI*5)/12))),(60+(20*Math.cos((Math.PI*5)/12))));
+ctx.stroke();
+
+ctx.fillStyle = "#556B2F";
+ctx.fillRect(0,80,200,120);
+
+
+
+</script>
+
  
   <br>
         
