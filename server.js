@@ -25,11 +25,11 @@ app.get('/pavan',function(req,res)
 );
 app.get('/raja',function(req,res)
 {
-  res.send("raja's page");  
+   res.sendFile(path.join(__dirname, 'ui', 'raja.html'));   
 }
 );app.get('/yash',function(req,res)
 {
-  res.send("yash's page");  
+   res.sendFile(path.join(__dirname, 'ui', 'yash.html'));   
 }
 );
 // Do not change port, otherwise your app won't run on IMAD servers
