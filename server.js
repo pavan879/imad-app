@@ -2,8 +2,28 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
+console.log = function() {};
+global.$ = window.$ = require('jquery');
+var rewire = require('rewire'),
+    jsdom = require('jsdom').jsdom,
+  	appModule = rewire('../ui/main.js');
+
+global.document = jsdom('<body></body>');
+
+describe('', function() {
+  it ('Did you attach the text function to $(this)?', function() {
+    expect(appModule.__get__('main')).to.match(/\$\( *[\'"].projects-button[\'"] *\).on\( *[\'"]click[\'"], *function *\( *\) \{((\n|.)*)\$\( *this *\).text\(.*\)((\n|.)*)\}\)/);
+  });
+
+  it ('Did you provide the text function a string?', function() {
+    expect(appModule.__get__('main')).to.match(/\$\( *[\'"].projects-button[\'"] *\).on\( *[\'"]click[\'"], *function *\( *\) \{((\n|.)*)\$\( *this *\).text\( *[\'"].*[\'"]\)((\n|.)*)\}\)/);
+  });
+});
+
+
 var app = express();
 app.use(morgan('combined'));
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index2.html'));
