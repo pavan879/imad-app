@@ -2,7 +2,7 @@ console.log = function() {};
 global.$ = window.$ = require('jquery');
 var rewire = require('rewire'),
     jsdom = require('jsdom').jsdom,
-  	appModule = rewire('../js/main.js');
+  	appModule = rewire('../ui/main.js');
 
 global.document = jsdom('<body></body>');
 
