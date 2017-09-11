@@ -1,15 +1,15 @@
 console.log('Loaded!');
 
-function main(){
+/*function main(){
     $('.center').hide();
     $('.center').fadeIn(1000);
-}
+}*/
 
 
 
 
 
-/*function main() {
+function main() {
   $('.skillset').hide();
   $('.skillset').fadeIn(1000);
   $('.projects').hide();
@@ -21,6 +21,6 @@ function main(){
   });
  
   
-}*/
+}
 
 $(document).ready(main);
