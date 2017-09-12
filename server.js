@@ -19,12 +19,12 @@ app.get('/ui/main.js', function (req, res) {
 });
 
 
-/*app.get('/pavan',function(req,res)
+app.get('/pavan',function(req,res)
 {
   res.sendFile(path.join(__dirname, 'ui', 'pavan.html'));  
 }
 );
-app.get('/raja',function(req,res)
+/*app.get('/raja',function(req,res)
 {
    res.sendFile(path.join(__dirname, 'ui', 'raja.html'));   
 }
