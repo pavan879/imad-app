@@ -27,6 +27,6 @@ $(document).ready(main);*/
 var button=document.querySelector('button');
 button.onclick=function()
 {
-  window.open('ui/pavan.html');  
+  window.open('/pavan');  
 };
 
