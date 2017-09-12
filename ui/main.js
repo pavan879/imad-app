@@ -7,8 +7,6 @@ console.log('Loaded!');
 
 
 
-
-
 function main() {
   $('.skillset').hide();
   $('.skillset').fadeIn(1000);
