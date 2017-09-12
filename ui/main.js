@@ -30,3 +30,4 @@ button.onclick=function myblog()
   window.open('/pavan');  
 };
 
+
