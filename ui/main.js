@@ -24,7 +24,7 @@ function main() {
 
 $(document).ready(main);*/
 
-var button=document.querySelector('button');
+var button=document.querySelector('input');
 button.onclick=function myblog()
 {
   window.open('/pavan');  
