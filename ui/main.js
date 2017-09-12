@@ -3,7 +3,7 @@ console.log('Loaded!');
 /*function main(){
     $('.center').hide();
     $('.center').fadeIn(1000);
-}*/
+}
 
 
 
@@ -22,4 +22,11 @@ function main() {
   
 }
 
-$(document).ready(main);
+$(document).ready(main);*/
+
+var button=document.querySelector('button');
+button.onclick=function()
+{
+  window.open('ui/pavan.html');  
+};
+
