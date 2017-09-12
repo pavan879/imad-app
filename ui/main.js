@@ -19,7 +19,6 @@ function main() {
     $(this).text('Projects Viewed');
     
   });
- 
   
 }
 
