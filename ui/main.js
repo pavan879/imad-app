@@ -18,8 +18,11 @@ function main() {
     
   });
   
+  $('.input').on('click',function myblog()
+{
+  window.open('/pavan'); 
+});
 }
-
 $(document).ready(main);
 
 /*var button=document.querySelector('input');
