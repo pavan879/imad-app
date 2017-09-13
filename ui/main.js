@@ -18,7 +18,7 @@ function main() {
     
   });
   
-  $('.input').on('click',function myblog()
+  $(':input').on('click',function myblog()
 {
   window.open('/pavan'); 
 });
