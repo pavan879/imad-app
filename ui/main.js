@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-/*function main(){
+function main(){
     $('.center').hide();
     $('.center').fadeIn(1000);
 }
@@ -20,10 +20,10 @@ function main() {
   
 }
 
-$(document).ready(main);*/
+$(document).ready(main);
 
-var button=document.querySelector('input');
+/*var button=document.querySelector('input');
 button.onclick=function myblog()
 {
   window.open('/pavan'); 
-};
+};*/
