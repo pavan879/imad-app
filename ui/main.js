@@ -25,5 +25,5 @@ $(document).ready(main);*/
 var button=document.querySelector('input');
 button.onclick=function myblog()
 {
-  window.open('/pavan');  
+  window.open('/pavan'); 
 };
