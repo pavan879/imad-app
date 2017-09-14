@@ -29,10 +29,10 @@ function main() {
 
 $(':input').on('click',myblog);
 
-function myblog(p)
+function myblog(x)
 {
     
-    if(p==1){
+    if(x=='q'){
     window.open('/pavan');
  }}
     
