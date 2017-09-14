@@ -18,10 +18,20 @@ function main() {
     
   });
   
-  $(':input').on('click',function myblog()
+  $(':input').on('click',function myblog(x)
 {
-  window.open('/pavan'); 
+  var val=x;
+  if(x===1){
+  window.open('/pavan');}
+  else if(x===2){
+  window.open('/raja');}
+  else if(x===3){
+  window.open('/yash');}
+  
 });
+
+    
+    
 }
 $(document).ready(main);
 
