@@ -21,13 +21,11 @@ function main() {
   $(':input').on('click',function myblog()
 {
     
-      window.open('/pavan');
+      window.open('/raja');
+      
+      
    
- }
- 
- 
-  
-);
+ });
 
     
     
