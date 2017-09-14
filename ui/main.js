@@ -20,10 +20,7 @@ function main() {
   
   $(':input').on('click',function myblog(i)
 {
-
- var j =i;
- alert(j);
- if(j == "x"){
+ if(i == "x"){
        alert("am in");
       window.open('/pavan');
    
