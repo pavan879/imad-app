@@ -18,15 +18,25 @@ function main() {
     
   });
   
-  $(':input').on('click',function myblog()
+ /* $(':input').on('click',function myblog()
 {
     
       window.open('/raja');
       
       
    
- });
+ });*/
 
+$(':input').myblog(x);
+
+function myblog(x)
+{
+    if(x==1){
+      window.open('/pavan');}
+      
+      
+   
+ }
     
     
 }
