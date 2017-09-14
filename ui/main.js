@@ -21,7 +21,7 @@ function main() {
   $(':input').on('click',function myblog(i)
 {
     alert(i);
- if(i == 'x'){
+ if(i === 'x'){
        alert("am in");
       window.open('/pavan');
    
