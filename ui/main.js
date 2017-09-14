@@ -24,9 +24,11 @@ function main() {
  var j = x;
  alert(j);
  if(1 == 1){
-     alert("am in");
+       alert("am in");
+      window.open('/pavan');
+   
  }
-  window.open('/pavan');
+ 
  
   
 });
