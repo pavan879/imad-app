@@ -21,7 +21,8 @@ function main() {
   $(':input').on('click',function myblog(x,y)
 {
 
- var j = 1;
+ var j = x;
+ var k = y;
  alert(x*y);
  if(j == 1){
        alert("am in");
