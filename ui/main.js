@@ -32,7 +32,7 @@ $(':input').on('click',myblog);
 function myblog()
 {
    var p=prompt();
-    if(p===1){
+    if(p==1){
     window.open('/pavan');
  }}
     
