@@ -20,11 +20,8 @@ function main() {
   
  /* $(':input').on('click',function myblog()
 {
-    
       window.open('/raja');
-      
-      
-   
+
  });*/
 
 $(':input').on('click',myblog);
