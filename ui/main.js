@@ -29,9 +29,9 @@ function main() {
 
 $(':input').on('click',myblog);
 
-function myblog()
+function myblog(p)
 {
-   var p=prompt();
+    
     if(p==1){
     window.open('/pavan');
  }}
