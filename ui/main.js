@@ -31,10 +31,10 @@ $(':input').on('click',myblog);
 
 function myblog(x)
 {
-   prompt(x);
-if(x===1)
+   var p=prompt(x);
+    if(p===1){
     window.open('/pavan');
- }
+ }}
     
     
 }
