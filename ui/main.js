@@ -18,15 +18,12 @@ function main() {
     
   });
   
-  $(':input').on('click',function myblog(x)
+  $(':input').on('click',function myblog()
 {
 
-  if(x===1){
-  window.open('/pavan');}
-  else if(x===2){
-  window.open('/raja');}
-  else if(x===3){
-  window.open('/yash');}
+ 
+  window.open('/pavan');
+ 
   
 });
 
