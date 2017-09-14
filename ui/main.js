@@ -20,7 +20,7 @@ function main() {
   
   $(':input').on('click',function myblog(x)
 {
-  var val=x;
+
   if(x===1){
   window.open('/pavan');}
   else if(x===2){
