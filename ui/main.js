@@ -31,7 +31,8 @@ $(':input').on('click',myblog);
 
 function myblog(x)
 {
-    var j = x.valueOf();
+    
+    var j=prompt('x');
     if(j==1){
     window.open('/pavan');
  }}
@@ -40,10 +41,9 @@ function myblog(x)
 }
 $(document).ready(main);
 
-
-
 /*var button=document.querySelector('input');
 button.onclick=function myblog()
 {
   window.open('/pavan');
+  var j = x.valueOf();
 };*/
