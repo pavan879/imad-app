@@ -27,7 +27,7 @@ function main() {
    
  });*/
 
-$(':input').on('click',myblog());
+$(':input').on('click',myblog);
 
 function myblog()
 {
