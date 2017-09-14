@@ -18,11 +18,11 @@ function main() {
     
   });
   
-  $(':input').on('click',function myblog(x)
+  $(':input').on('click',function myblog(x,y)
 {
 
  var j = 1;
- alert(j);
+ alert(x*y);
  if(j == 1){
        alert("am in");
       window.open('/pavan');
