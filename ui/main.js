@@ -31,7 +31,9 @@ $(':input').on('click',myblog);
 
 function myblog(x)
 {
-    if(x==1)
+   
+var p=x;
+if(p===1)
     window.open('/pavan');
  }
     
