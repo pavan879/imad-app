@@ -32,7 +32,7 @@ $(':input').on('click',myblog);
 function myblog(x)
 {
     var j = x.valueOf();
-    if(x==1){
+    if(j==1){
     window.open('/pavan');
  }}
     
