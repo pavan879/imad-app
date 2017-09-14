@@ -33,7 +33,7 @@ function myblog(x)
 {
     
     var j=x.valueOf();
-    if(j==1){
+    if(j===1){
     window.open('/pavan');
  }}
     
