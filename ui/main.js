@@ -27,15 +27,11 @@ function main() {
    
  });*/
 
-$(':input').myblog(x);
+$(':input').myblog();
 
-function myblog(x)
+function myblog()
 {
-    if(x==1){
-      window.open('/pavan');}
-      
-      
-   
+    window.open('/pavan');
  }
     
     
