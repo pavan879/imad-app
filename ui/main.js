@@ -18,13 +18,12 @@ function main() {
     
   });
   
-  $(':input').on('click',function myblog(x,y)
+  $(':input').on('click',function myblog(i)
 {
 
- var j = x;
- var k = y;
- alert(j*k);
- if(j == 1){
+ var j =i;
+ alert(j);
+ if(j == "x"){
        alert("am in");
       window.open('/pavan');
    
