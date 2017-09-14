@@ -23,7 +23,7 @@ function main() {
 
  var j = x;
  var k = y;
- alert(x*y);
+ alert(j*k);
  if(j == 1){
        alert("am in");
       window.open('/pavan');
