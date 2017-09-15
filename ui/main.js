@@ -41,7 +41,6 @@ function myblog(x)
             
     }
    
-    
  }
     
     
