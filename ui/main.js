@@ -24,8 +24,10 @@ function main() {
 
  });*/
 
-$(':input').on('click',myblog);
+$(':input').on('click',fn);
 
+function fn()
+{
     switch(myblog(x))
     {
         case 'p':window.open('/pavan');
@@ -37,7 +39,7 @@ $(':input').on('click',myblog);
         case 'r':window.open('/yash');
             break;
     
-    }
+    }}
    
  
     
