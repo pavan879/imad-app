@@ -26,13 +26,12 @@ function main() {
 
 $(':input').on('click',myblog);
 
-function myblog(x)
+function myblog()
 {
     
-    var j=x.valueOf();
-    if(j==1){
+   
     window.open('/pavan');
- }}
+ }
     
     
 }
