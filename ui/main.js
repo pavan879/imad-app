@@ -26,11 +26,22 @@ function main() {
 
 $(':input').on('click',myblog);
 
-function myblog()
+function myblog(x)
 {
-    
+    switch(x)
+    {
+        case 1:window.open('/pavan');
+            break;
+            
+        case 2:window.open('/raja');
+            break;
+            
+        case 3:window.open('/yash');
+            break;
+            
+    }
    
-    window.open('/pavan');
+    
  }
     
     
