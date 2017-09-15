@@ -24,10 +24,9 @@ function main() {
 
  });*/
 
-$(':input').on('click',fn);
+$(':input').on('click',myblog);
 
-function fn()
-{
+
     switch(myblog(x))
     {
         case 'p':window.open('/pavan');
@@ -39,7 +38,7 @@ function fn()
         case 'r':window.open('/yash');
             break;
     
-    }}
+    }
    
  
     
