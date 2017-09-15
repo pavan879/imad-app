@@ -26,9 +26,7 @@ function main() {
 
 $(':input').on('click',myblog);
 
-function myblog(x)
-{
-    switch(x)
+    switch(myblog(x))
     {
         case 'p':window.open('/pavan');
             break;
@@ -38,11 +36,10 @@ function myblog(x)
             
         case 'r':window.open('/yash');
             break;
-            
+    
     }
    
- }
-    
+ 
     
 }
 $(document).ready(main);
