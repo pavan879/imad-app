@@ -10,8 +10,9 @@ h1 {
 
 
 .img{
+    width: 50%;
     background-color: grey;
-     padding-top:145px;
+    padding-top:145px;
     
 }
 .skillset {
