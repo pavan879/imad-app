@@ -22,7 +22,7 @@ function main() {
 {
       window.open('/raja');
 
- });*/
+ });
 
 $(':input').on('click',myblog);
 
@@ -39,7 +39,7 @@ $(':input').on('click',myblog);
     
     }
    
-}
+}*/
 $(document).ready(main);
 
 /*var button=document.querySelector('input');
