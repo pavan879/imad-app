@@ -7,7 +7,7 @@ img.onClick=function()
     img.style.marginleft='100px';
 };
 
-function main(){
+/*function main(){
     $('.center').hide();
     $('.center').fadeIn(1000);
 }
@@ -44,10 +44,10 @@ $(':input').on('click',myblog);
         case 'r':window.open('/yash');
             break;
     
-    }*/
+    }
    
 }
-$(document).ready(main);
+$(document).ready(main);*/
 
 /*var button=document.querySelector('input');
 button.onclick=function myblog()
