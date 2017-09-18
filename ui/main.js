@@ -4,7 +4,7 @@ console.log('Loaded!');
 var img=document.getElementById('ntt');
 img.onclick=function()
 {
-    img.style.marginleft='100px';
+    img.style.marginleft='1000px';
 };
 
 /*function main(){
