@@ -1,16 +1,16 @@
 console.log('Loaded!');
 
 
-var img=document.getElementById('ntt');
+/*var img=document.getElementById('ntt');
 img.onclick=function()
 {
     img.style.marginleft='1000px';
 };
 
-/*function main(){
+function main(){
     $('.center').hide();
     $('.center').fadeIn(1000);
-}
+}*/
 
 
 
@@ -25,13 +25,19 @@ function main() {
     
   });
   
- /* $(':input').on('click',function myblog()
+ $(':input').on('click',function myblog(x)
 {
-      window.open('/raja');
+        var x=0;
+      if(x=='p'){
+      window.open('/raja');}
+      else if(x=='p'){
+      window.open('/raja');}
+      else if(x=='p'){
+      window.open('/raja');}
 
  });
 
-$(':input').on('click',myblog);
+/*$(':input').on('click',myblog);
 
     switch(myblog(x))
     {
@@ -44,10 +50,10 @@ $(':input').on('click',myblog);
         case 'r':window.open('/yash');
             break;
     
-    }
+    }*/
    
 }
-$(document).ready(main);*/
+$(document).ready(main);
 
 /*var button=document.querySelector('input');
 button.onclick=function myblog()
