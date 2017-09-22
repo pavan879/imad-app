@@ -25,7 +25,7 @@ function main() {
     
   });
   
-  button.onclick=function myblog(x)
+  /*button.onclick=function myblog(x)
 {
   if(x=='p'){
   window.open('/pavan');}
@@ -36,19 +36,18 @@ function main() {
      window.open('/yash'); 
   }
   
-};
+};*/
   
- /*$(':input').on('click',function myblog(x)
+ $(':input').on('click',function myblog(x)
 {
-        var x=0;
       if(x=='p'){
       window.open('/raja');}
-      else if(x=='p'){
+      else if(x=='q'){
       window.open('/raja');}
-      else if(x=='p'){
+      else if(x=='r'){
       window.open('/raja');}
 
- });*/
+ });
 
 /*$(':input').on('click',myblog);
 
