@@ -25,7 +25,20 @@ function main() {
     
   });
   
- $(':input').on('click',function myblog(x)
+  button.onclick=function myblog(x)
+{
+  if(x=='p'){
+  window.open('/pavan');}
+  else if(x=='q'){
+     window.open('/raja'); 
+  }
+  else if(x=='r'){
+     window.open('/yash'); 
+  }
+  
+};
+  
+ /*$(':input').on('click',function myblog(x)
 {
         var x=0;
       if(x=='p'){
@@ -35,7 +48,7 @@ function main() {
       else if(x=='p'){
       window.open('/raja');}
 
- });
+ });*/
 
 /*$(':input').on('click',myblog);
 
