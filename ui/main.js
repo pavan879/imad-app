@@ -1,7 +1,6 @@
 console.log('Loaded!');
 
-
-/*var img=document.getElementById('ntt');
+var img=document.getElementById('ntt');
 img.onclick=function()
 {
     img.style.marginleft='1000px';
@@ -10,7 +9,7 @@ img.onclick=function()
 function main(){
     $('.center').hide();
     $('.center').fadeIn(1000);
-}*/
+}
 
 
 
@@ -25,18 +24,6 @@ function main() {
     
   });
   
-  /*button.onclick=function myblog(x)
-{
-  if(x=='p'){
-  window.open('/pavan');}
-  else if(x=='q'){
-     window.open('/raja'); 
-  }
-  else if(x=='r'){
-     window.open('/yash'); 
-  }
-  
-};*/
   
  $(':input').on('click',function myblog(x)
 {
@@ -48,6 +35,29 @@ function main() {
       window.open('/raja');}
 
  });
+   
+}
+$(document).ready(main);
+
+/*var button=document.querySelector('input');
+button.onclick=function myblog()
+{
+  window.open('/pavan');
+  var j = x.valueOf();
+};*/
+
+/*button.onclick=function myblog(x)
+{
+  if(x=='p'){
+  window.open('/pavan');}
+  else if(x=='q'){
+     window.open('/raja'); 
+  }
+  else if(x=='r'){
+     window.open('/yash'); 
+  }
+  
+};*/
 
 /*$(':input').on('click',myblog);
 
@@ -63,13 +73,3 @@ function main() {
             break;
     
     }*/
-   
-}
-$(document).ready(main);
-
-/*var button=document.querySelector('input');
-button.onclick=function myblog()
-{
-  window.open('/pavan');
-  var j = x.valueOf();
-};*/
