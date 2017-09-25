@@ -33,8 +33,9 @@ function main() {
       window.open('/raja');}
   }
   
- $(':input').on('click',myblog(x));
-   
+ $(':input').on('click',function(){
+       myblog();
+    });
 }
 $(document).ready(main);
 
