@@ -33,11 +33,7 @@ function main() {
       window.open('/raja');}
   }
   
- $(':input').on('click',function ()
-{
-      myblog();
-
- });
+ $(':input').on('click',myblog());
    
 }
 $(document).ready(main);
