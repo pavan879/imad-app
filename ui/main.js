@@ -24,15 +24,18 @@ function main() {
     
   });
   
-  
- $(':input').on('click',function myblog(x)
-{
+  function myblog(x){
       if(x=='p'){
       window.open('/raja');}
       else if(x=='q'){
       window.open('/raja');}
       else if(x=='r'){
       window.open('/raja');}
+  }
+  
+ $(':input').on('click',function ()
+{
+      myblog();
 
  });
    
