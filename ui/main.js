@@ -26,11 +26,11 @@ function main() {
   
   function myblog(x){
       if(x=='p'){
-      window.open('/raja');}
+      window.open('/pavan');}
       else if(x=='q'){
       window.open('/raja');}
       else if(x=='r'){
-      window.open('/raja');}
+      window.open('/yash');}
   }
   
  $(':input').on('click',function(){
