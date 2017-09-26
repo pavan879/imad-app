@@ -34,7 +34,8 @@ function main() {
   }
   
  $(':input').on('click',function(){
-       myblog();
+      var x= $(this).attr("value");
+       myblog(x);
     });
 }
 $(document).ready(main);
