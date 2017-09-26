@@ -33,7 +33,7 @@ function main() {
       window.open('/yash');}
   }
   
- $(':input').on('click',function(){
+ $(':input').click(function () {
       var x= $(this).attr("value");
        myblog(x);
     });
