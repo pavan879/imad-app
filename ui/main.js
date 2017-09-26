@@ -21,10 +21,10 @@ window.open(v,"_blank");
 }
 
 $("button").click( function () {
-            var v = $(this).attr("value");
-                AlertSave(v);
-            } 
-        );
+var v = $(this).attr("value");
+AlertSave(v);
+}
+);
     
 }
    
