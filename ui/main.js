@@ -1,3 +1,40 @@
+$(document).ready(function () 
+{
+$("button").click( function () {
+var v = $(this).attr("value");
+AlertSave(v);
+}
+);
+});
+
+function AlertSave(v) {
+window.open(v,"_blank");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log('Loaded!');
 
 var img=document.getElementById('ntt');
@@ -38,6 +75,11 @@ function main() {
        myblog(x);
     });
 }
+
+
+
+
+
 $(document).ready(main);
 
 /*var button=document.querySelector('input');
