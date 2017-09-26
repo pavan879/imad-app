@@ -20,7 +20,7 @@ function AlertSave(v) {
 window.open(v,"_blank");
 }
 
-$("button").click( function () {
+$("button").click(function () {
 var v = $(this).attr("value");
 AlertSave(v);
 }
