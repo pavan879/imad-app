@@ -1,12 +1,12 @@
 console.log('Loaded!');
-
-
-function main() {
-    var img=document.getElementById('ntt');
+   var img=document.getElementById('ntt');
 img.onclick=function()
 {
     img.style.marginleft='1000px';
 };
+
+function main() {
+ 
   $('.skillset').hide();
   $('.skillset').fadeIn(1000);
   $('.projects').hide();
@@ -16,8 +16,15 @@ img.onclick=function()
     $(this).text('Projects Viewed');
   });
 
+function AlertSave(v) {
+window.open(v,"_blank");
+}
 
-
+$("button").click( function () {
+            var v = $(this).attr("value");
+                AlertSave(v);
+            } 
+        );
     
 }
    
