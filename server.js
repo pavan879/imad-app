@@ -51,7 +51,7 @@ var htmlTemplate=
         <body>
         <h2>${heading}</h2>
         <i>${dob}</i>
-        <p><b>${notes}</b></p>
+        <p style="color:blue"><b>${notes}</b></p>
         </body>
         </html>`;
         return htmlTemplate;
