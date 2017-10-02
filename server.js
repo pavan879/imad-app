@@ -77,6 +77,7 @@ app.get('/test-db',function (req,res){
 
 app.get('/:perName',function(req,res)
 {
+  var perName=req.params.perName;
   res.send(createTemplate(persons[perName]));  
 }
 );
