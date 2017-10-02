@@ -34,7 +34,6 @@ var tom={
   notes:'Working in TCS'
 };
 
-
 function createTemplate (data){
 var title=data.title;
 var heading=data.heading;
@@ -57,9 +56,6 @@ var htmlTemplate=
         </html>`;
         return htmlTemplate;
 }
-
-
-
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index2.html'));
