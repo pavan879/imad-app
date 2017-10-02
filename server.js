@@ -13,27 +13,26 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 
-var pav={
+var persons={
+'pav':{
   title:"Pavan's page",
   heading:'LVS PAVAN KUMAR',
   dob:'22/07/1995',
   notes:'Working in NTT DATA'
-};
-
-var deepu={
+},
+'deepu':{
   title:"Pradeep's page",
   heading:'LV PRADEEP KUMAR',
   dob:'07/10/1996',
   notes:'Studying at Vignan'
-};
-
-var tom={
+},
+'tom':{
   title:"Tom's page",
   heading:'B ANUSHA',
   dob:'12/03/1995',
   notes:'Working in TCS'
+}
 };
-
 function createTemplate (data){
 var title=data.title;
 var heading=data.heading;
@@ -76,21 +75,12 @@ app.get('/test-db',function (req,res){
     
 });
 
-app.get('/pav',function(req,res)
+app.get('/:perName',function(req,res)
 {
-  res.send(createTemplate(pav));  
+  res.send(createTemplate(persons[perNName]));  
 }
 );
-app.get('/deepu',function(req,res)
-{
-  res.send(createTemplate(deepu));  
-}
-);
-app.get('/tom',function(req,res)
-{
-  res.send(createTemplate(tom));  
-}
-);
+
 
 
 app.get('/ui/style2.css', function (req, res) {
