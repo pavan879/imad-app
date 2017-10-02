@@ -49,7 +49,7 @@ var htmlTemplate=
         </head>
         <body>
         <h2>${heading}</h2>
-        <p>DOB<i style="font-family:sans-serif,color:red">${dob}</i></p>
+        <p>DOB <i style="font-family:sans-serif;color:red">${dob}</i></p>
         <p style="color:blue"><b>${notes}</b></p>
         </body>
         </html>`;
