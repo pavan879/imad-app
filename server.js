@@ -20,6 +20,19 @@ var pav={
   notes:'Working in NTT DATA'
 };
 
+var deepu={
+  title:"Pradeep's page",
+  heading:'LV PRADEEP KUMAR',
+  dob:'07/10/1996',
+  notes:'Studying at Vignan'
+};
+
+var tom={
+  title:"Tom's page",
+  heading:'B ANUSHA',
+  dob:'12/03/1995',
+  notes:'Working in TCS'
+};
 
 
 function createTemplate (data){
@@ -70,6 +83,16 @@ app.get('/test-db',function (req,res){
 app.get('/pav',function(req,res)
 {
   res.send(createTemplate(pav));  
+}
+);
+app.get('/deepu',function(req,res)
+{
+  res.send(createTemplate(deepu));  
+}
+);
+app.get('/tom',function(req,res)
+{
+  res.send(createTemplate(tom));  
 }
 );
 
