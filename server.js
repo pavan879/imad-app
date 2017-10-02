@@ -13,6 +13,41 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 
+var pav={
+  title:"Pavan's page",
+  heading:'LVS PAVAN KUMAR',
+  dob:'22/07/1995',
+  notes:'Working in NTT DATA'
+};
+
+
+
+function createTemplate (data){
+var title=data.title;
+var heading=data.heading;
+var dob=data.dob;
+var notes=data.notes;
+
+var htmlTemplate=
+        `<html>
+        <head>
+        <title>
+        ${title}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        </head>
+        <body>
+        <h2>${heading}</h2>
+        <i>${dob}</i>
+        <p><b>${notes}</b></p>
+        </body>
+        </html>`;
+        return htmlTemplate;
+}
+
+
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index2.html'));
 });
@@ -32,7 +67,11 @@ app.get('/test-db',function (req,res){
     
 });
 
-
+app.get('/pav',function(req,res)
+{
+  res.send(createTemplate(pav));  
+}
+);
 
 
 app.get('/ui/style2.css', function (req, res) {
