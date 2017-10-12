@@ -33,6 +33,7 @@ var persons={
   notes:'Working in TCS'
 }
 };
+
 function createTemplate (data){
 var title=data.title;
 var heading=data.heading;
@@ -57,7 +58,7 @@ var htmlTemplate=
 }
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index2.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 var pool=new Pool(config);
@@ -83,10 +84,8 @@ app.get('/:perName',function(req,res)
 }
 );
 
-
-
 app.get('/ui/style2.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style2.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
 app.get('/ui/main.js', function (req, res) {
