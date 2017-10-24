@@ -21,7 +21,6 @@ var v = $(this).attr("value");
 AlertSave(v);
 }
 );
-    
 }
    
 $(document).ready(main);
