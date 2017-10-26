@@ -66,7 +66,7 @@ app.get('/locators', function (req, res) {
 });
 
 app.get('/forms', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'forms.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'FormsEg.html'));
 });
 var pool=new Pool(config);
 
