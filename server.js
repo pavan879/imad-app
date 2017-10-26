@@ -84,6 +84,14 @@ app.get('/flag', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'flag.png'));
 });
 
+app.get('/html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'html.jpg'));
+});
+
+app.get('/pic', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pic.png'));
+});
+
 var pool=new Pool(config);
 
 app.get('/test-db',function (req,res){
