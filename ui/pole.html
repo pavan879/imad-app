@@ -1,0 +1,73 @@
+<html>
+
+<body>
+
+<img id="flag" width="200" height="120" src="flag.png">
+
+<canvas id="myCanvas" width="800" height="1000"
+style="border:1px solid #f1f1f1;">
+</canvas>
+
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+
+ctx.fillStyle = "#A0522D";
+ctx.fillRect(380,200,20,600);
+
+
+ctx.fillStyle="#FF7F50";
+ctx.fillRect(340,800,100,40);
+
+ctx.fillStyle = "#4B0082";
+ctx.font = "20px Arial";
+ctx.fillText("I LOVE",360,830);
+
+ctx.fillStyle="#FAFAD2";
+ctx.fillRect(280,840,220,40);
+
+ctx.fillStyle = "#4B0082";
+ctx.font = "20px Arial";
+ctx.fillText("MY",375,870);
+
+ctx.fillStyle="#90EE90";
+ctx.fillRect(220,880,340,40);
+
+ctx.fillStyle = "#4B0082";
+ctx.font = "20px Arial";
+ctx.fillText("COUNTRY",340,910);
+
+
+ctx.beginPath();
+ctx.arc(390,200,10,Math.PI*2/2,0);
+ctx.stroke();
+
+window.onload = function()
+{
+    
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("flag");
+    ctx.drawImage(img, 401, 201);
+};
+
+ctx.fillStyle = "#4B0082";
+ctx.font = "35px  sans-serif";
+ctx.fillText("HAPPY",480,500);
+
+ctx.fillText("INDEPENDENCE DAY",420,550);
+
+ctx.fillStyle = "#DC143C";
+ctx.font = "150px Helvetica";
+ctx.fillText("70",600,500);
+
+ctx.font = "50px Helvetica";
+ctx.fillText("th",750,400);
+
+</script>
+
+
+</body>
+</html>
