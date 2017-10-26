@@ -69,6 +69,15 @@ app.get('/forms', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'FormsEg.html'));
 });
 
+
+app.get('/flag', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'flag.html'));
+});
+
+app.get('/pole', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pole.html'));
+});
+
 app.get('/html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'HTMLpractice.html'));
 });
