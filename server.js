@@ -76,7 +76,7 @@ app.get('/pole', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'pole.html'));
 });
 
-app.get('/html', function (req, res) {
+app.get('/html1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'HTMLpractice.html'));
 });
 
@@ -84,7 +84,7 @@ app.get('/flag', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'flag.png'));
 });
 
-app.get('/html1', function (req, res) {
+app.get('/html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'html.jpg'));
 });
 
