@@ -84,6 +84,10 @@ app.get('/flag', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'flag.png'));
 });
 
+app.get('/htmlflag', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'flag.html'));
+});
+
 app.get('/html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'html.jpg'));
 });
