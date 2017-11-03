@@ -69,9 +69,6 @@ app.get('/forms', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'FormsEg.html'));
 });
 
-
-
-
 app.get('/pole', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'pole.html'));
 });
@@ -119,7 +116,7 @@ app.get('/:perName',function(req,res)
 }
 );
 
-app.get('/ui/style2.css', function (req, res) {
+app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
