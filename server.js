@@ -57,7 +57,7 @@ var htmlTemplate=
         return htmlTemplate;
 }
 
-app.get('/', function (req, res) {
+app.get('/xmleg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'xml.html'));
 });
 
